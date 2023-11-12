@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Register</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" value="" placeholder="enter fname" autofocus="on" autocomplete="on"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" value="" placeholder="enter lname" checked><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" value="" placeholder="enter email" hidden><br><br>
+        <label for="pwd">Password:</label>
+        <input type="text" id="pwd" value="" placeholder="enter Password" pattern="" maxlength="16" minlength="8"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" value="" placeholder="enter pnumber" readonly><br><br>
+        <label for="gen">Gender:</label>
+        <input type="radio" id="gen" value="male">male 
+        <input type="radio" id="gen" value="female">female <br>
+        <br>
+        <label for="lan">Language:</label>
+        <select name="Language">
+       <option value="sel-lan">select a Language</option>
+       <option value="tel">telugu</option>
+       <option value="eng">english</option>
+       <option value="hin">hindi</option>
+        </select><br><br>
+      <label for="zip">zip Code:</label>
+      <input type="number" id="zip" value="" placeholder="enter zip Code" disabled><br><br>
+      <label for="about">About</label>
+      <textarea name="" id="about" cols="30" rows="10" placeholder="comment your about......."></textarea> <br><br>
+      <label for="age">Age:</label>
+      <input type="checkbox" id="age" value="">18
+      <input type="checkbox" id="age" value="">20 <br><br>
+      <input type="file"><br><br>
+      <label for="pho">photo:</label>
+      <input type="image" value="" id="photo"><br>
+      <label for="sal">salary:</label>
+      <input type="range">
+
+      <center>
+        <button>Register</button>
+      <input type="reset">
+    </center>
+    </fieldset>
+</body>
+</html>
